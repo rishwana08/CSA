@@ -1,5 +1,6 @@
 var a = 20
 var b = 15
+//Arithmetic Operator
 console.log("Assignment Operator");
 
 //Addition
@@ -15,6 +16,7 @@ console.log(a%b);
 //Exponentiation
 console.log(a**b);
 
+//Assignment Operator
 console.log("Assignment operator");
 var c = 10
 console.log(c+=10);

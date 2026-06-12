@@ -55,7 +55,7 @@ console.log("Ternary Operator");
 var result = (a > b) ? "a is greater than b" : "b is greater than a";
 console.log(result);
 
-
+  
 
 
 

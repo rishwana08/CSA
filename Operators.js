@@ -16,13 +16,13 @@ console.log(a%b);
 console.log(a**b);
 
 console.log("Assignment operator");
-
-console.log(a+=10);
-console.log(a-=10);
-console.log(a*=10);
-console.log(a/=10);
-console.log(a%=10);
-console.log(a**=10);
+var c = 10
+console.log(c+=10);
+console.log(c-=10);
+console.log(c*=10);
+console.log(c/=10);
+console.log(c%=10);
+console.log(c**=10);
 
 
 

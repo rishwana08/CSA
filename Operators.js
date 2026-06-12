@@ -24,6 +24,18 @@ console.log(c/=10);
 console.log(c%=10);
 console.log(c**=10);
 
+//Comparison Operators
+console.log("Comparison Operator");
+console.log(a==b);
+console.log(a!=b);
+console.log(a>b);
+console.log(a<b);
+console.log(a>=b);
+console.log(a<=b);
+
+
+
+
 
 
 

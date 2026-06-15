@@ -1,6 +1,34 @@
-var light =
+console.log("if else Statement");
 
-if(light == Green){
+var light = "Green";
+
+if (light == "Green") {
     console.log("Go!");
+} 
+else if (light == "Yellow") {
+    console.log("Wait!");
+} 
+else if (light == "Red") {
+    console.log("Stop!");
+} 
+else {
+    console.log("Invalid Color!!");
 }
-else if()
+
+console.log("Switch Statement");
+let signal = "White"
+
+switch (signal) {
+    case "Green":
+        console.log("Go!");
+        break;
+    case "Yellow":
+        console.log("Wait!");
+        break;
+    case "Red":
+        console.log("Stop!");
+        break;
+    default:
+        console.log("Invalid Color!");
+        break;
+}

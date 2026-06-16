@@ -59,4 +59,4 @@ function maximumMarks(...marks){
 };
 
 console.log("Maximum Marks:",maximumMarks(80,90,70));
-//console.log(`Student Name: ${name}`);
+

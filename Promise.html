@@ -1,0 +1,35 @@
+<script>
+        const studentPromise = 
+        new Promise(function(resolve,reject)
+        {
+            console.log("Inside promise")
+
+            let success = false;
+
+            setTimeout(function(){
+
+                console.log("Inside setTimeout");
+
+                if(success){
+                    console.log("Inside Promise");
+                    resolve("Student loaded successfully");
+                } 
+                else
+                {
+                        console.log("Inside Error");
+                        reject("Failed to load")
+                }
+            },3000);
+
+        })
+        studentPromise
+        . then(function(result){
+                        console.log("Inside then")
+        })
+        .catch(function(error){
+            console.log("Inside Error")
+        })
+        
+        
+
+    </script>
